@@ -1,0 +1,71 @@
+.lukasfont {
+  background-color: #ffffff;
+  color: #FF8C00;
+  text-align: center;
+  font-size: 100px;
+  text-shadow:1px 1px 0 #000080,
+  -1px -1px 0 #000080,
+  1px -1px 0 #000080,
+  -1px 1px 0 #000080,
+  0px 1px 0 #000080,
+  1px 0px 0 #000080,
+  0px -1px 0 #000080,
+  -1px 0px 0 #000080,
+  4px 4px 3px #000080;
+  font-family: 'Bree Serif', serif;
+}
+#dropdown {
+  text-shadow: center;
+  font-family: 'Bree Serif', serif;
+}
+.optionfont {
+    font-family: 'Bree Serif', serif !important;
+    color: #000080 !important;
+}
+.OO7 {
+  color: #000080;
+}
+.ellogo {
+  width: 10%;
+  height: 10%;
+  float: left;
+  transition: 0.5s;
+  border-radius: 90%;
+}
+.ellogo:hover {
+  width: 12%;
+  height: 12%;
+  float: left;
+  filter: sepia(0.5);
+  transition: 0.5s;
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+.nav-extended {
+  background-color: #FF8C00;
+  border-bottom-style: solid;
+  border-bottom-color: #000080;
+  border-bottom-width: 5px;
+}
+.nav-content {
+  color: #000080;
+}
+.dropdown-button btn {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/0f/c3/6b/0fc36b2a7c3e5f9e0a23f66de3ecb600.jpg");
+
+}
+.clearfont {
+    font-family: 'Bree Serif', serif;
+    color: black;
+}
+
+
+#results {
+  font-family: 'Bree Serif', serif;
+  color: black;
+
+  font-size: 200%;
+  display: block;
+    text-shadow:0px 0px 0;
+  display:inline-block;
+    text-align: center;
+}

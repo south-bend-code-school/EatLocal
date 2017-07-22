@@ -1,0 +1,126 @@
+body{
+  color:navy;
+  background-color: white;
+}
+
+/*#logo{
+  background-image: url("file:///C:/Users/SBCS/Desktop/Autumn/Eat%20Local/FullSizeRender%20");
+}*/
+
+.nav-wrapper{
+  font-family: 'Bree Serif', serif;
+  font-size: 50px;
+}
+
+#headings{
+  font-size: 50px;
+  background-color: darkorange;
+  font-family: 'Bree Serif', serif;
+}
+
+h1{
+  /*text-align: center;*/
+  font-size: 12px;
+}
+
+#Why{
+  font-size: 40px;
+  /*text-align: center;*/
+  font-family: 'Bree Serif', serif;
+}
+
+#sbText{
+  font-size: 30px;
+  font-family: 'Bree Serif', serif;
+}
+
+#headings2{
+  font-size: 38px;
+  background-color: darkorange;
+  font-family: 'Bree Serif', serif;
+  color: white;
+}
+
+#aPic{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sbcs-site.appspot.com/o/images%2Fstudents%2F-KnoAx0nfmuDiPL1-Qs4?alt=media&token=651b5f4b-ffad-49d8-a886-565f987f2c");
+  height: 550px;
+  font-size: 45px;
+  font-family: 'Bree Serif', serif;
+}
+
+#aText{
+  font-size: 35px;
+  font-family: 'Bree Serif', serif;
+
+}
+
+#lText{
+  font-size: 35px;
+  font-family: 'Bree Serif', serif;
+}
+
+#lPic{
+  font-size: 45px;
+  height: 550px;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sbcs-site.appspot.com/o/images%2Fstudents%2F-KnoBx0xy-lhjMMEwqYf?alt=media&token=7c6fb8b9-323b-4343-8742-13dd03ec6441");
+  color: white;
+  font-family: 'Bree Serif', serif;
+}
+
+#jText{
+  font-size: 35px;
+  font-family: 'Bree Serif', serif;
+}
+
+.nav-wrapper{
+  background-color: #FF8C00;
+  color: #000080;
+}
+
+.ellogo{
+  background-image: url("./FullSizeRender (1) (1).jpg");
+  width: 10%;
+  height: 10%;
+  /*float: left;*/
+}
+
+/*.brand-logo{
+  color: navy;
+}*/
+
+/*a{
+  color:#000080;
+}*/
+
+#jPic{
+  font-size: 45px;
+  height: 550px;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sbcs-site.appspot.com/o/images%2Fstudents%2F-KnoBY91qAF-l0V1PHzM?alt=media&token=ce4b2370-7273-40cb-9b90-cd89a9ce0e2e");
+  font-family: 'Bree Serif', serif;
+}
+
+#eText{
+  font-size: 35px;
+  font-family: 'Bree Serif', serif;
+}
+
+#ePic{
+  font-size: 45px;
+  height: 550px;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sbcs-site.appspot.com/o/images%2Fstudents%2F-KnoBHmm_MwEkKqOau9g?alt=media&token=b27e2077-eecf-4997-9977-d861185abdf7");
+  font-family: 'Bree Serif', serif;
+}
+.image {
+  width:90px;
+  height:90px;
+  border-radius: 90%;
+    transition: 0.3s;
+}
+.image:hover {
+  width:100px;
+  height:100px;
+  border-radius: 90%;
+  filter: invert(1.2);
+  transform: rotateX(180deg);
+  transition: 0.3s;
+}

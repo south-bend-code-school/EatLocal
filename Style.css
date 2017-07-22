@@ -1,0 +1,18 @@
+Body{
+background-color: white;
+color:black;
+font-family: 'Bree Serif', serif;
+}
+
+
+.inline{
+display: inline-block;
+}
+
+.nav-wrapper {
+  background-color: #ff8c00;
+}
+#photoaline {
+padding-left: 10px;
+
+}

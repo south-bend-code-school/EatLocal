@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eat Local</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./eatLocalStyle.css">
+      <link rel="stylesheet" href="./StyleEatLocalHome.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+    <!-- Scripts -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+    <script src="mainEL.js"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class = "lukasfont">
+    <nav class="nav-extended">
+    <div class="nav-wrapper">
+      <div class="col m1 s4">
+        <a href="EatLocalHomePage.html"><img class="ellogo" src="./FullSizeRender.jpg"></a>
+      </div>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <!-- <li><a class="dropdown-button btn" href="#" data-activates="dropdown2">Search</a>
+          <ul  id="dropdown2" class="dropdown-content">
+          <div class ="colorchange">
+            <li><a href="#!">Breakfast</a></li>
+            <li><a href="#!">Brunch</a></li>
+            <li><a href="#!">Lunch</a></li>
+            <li><a href="#!">Dinner</a></li>
+            <li><a href="#!">Dessert</a></li>
+            <li><a href="#!">Beverages</a></li>
+          </div>
+          </ul>
+        </li> -->
+        <li><a href="EatLocalHomePage.html">Home</a></li>
+        <li><a href="aboutindex.html">About Us</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+
+        <li><a href="homePage">Home</a></li>
+        <li><a href="aboutUsPage">About Us</a></li>
+      </ul>
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab disabled"><a href="#all">All</a></li>
+        <li class="tab disabled"><a href="#price">Price</a></li>
+        <li class="tab disabled"><a href="#quality">Quality</a></li>
+        <li class="tab disabled"><a href="#nearby">Nearby</a></li>
+      </ul>
+    </div>
+    </nav>
+  <div id="all" class="col s12"></div>
+  <div id="price" class="col s12"></div>
+  <div id="quality" class="col s12"></div>
+  <div id="nearby" class="col s12"></div>
+
+
+</div>
+
+
+
+
+
+<div class = "optionfont">
+  <div class="input-field col s12">
+    <select id="dropdown1">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="breakfast">breakfast</option>
+    <option value="brunch">brunch</option>
+    <option value="lunch">lunch</option>
+      <option value="dinner">dinner</option>
+        <option value="dessert">dessert</option>
+    </select>
+  </div>
+</div>
+    <!-- <div class="row">
+      <div class="input-field col s12">
+        <select id="dropdown1">
+          <option value=""  class="clearfont" disabled selected>Choose your option</option>
+          <option value="breakfast" class="clearfont"><img id="waffles" src="image7.JPG">breakfast</option>
+          <option value="brunch" class="clearfont"><img id="toast" src="image7.JPG">brunch</option>
+          <option value="lunch" class="clearfont"><img id="sandwich">lunch</option>
+          <option value="dinner" class="clearfont"><img id="steak" src="image7.JPG">dinner</option>
+          <option value="dessert" class="clearfont"><img id="icecream" src="image7.JPG">dessert</option>
+        </select>
+        <label>Materialize Select</label> -->
+      <!-- </div>
+    </div> -->
+   <!-- <div class = "row">
+       <div id = "colorback" class = "col s8 offset-s2""center-align">
+            <! Dropdown Trigger -->
+        <!-- <a class='dropdown-button btn white' href="#" data-activates='dropdown1'>Whatcha hungry for?</a> -->
+
+       <!-- Dropdown Structure -->
+         <!-- <div class="input-field col s12">
+           <select id='dropdown1' class='dropdown-content'>
+             <option class = "clearfont"><img id = "waffles" src = "image7.JPG">Breakfast</option>
+             <option class = "clearfont"><img id = "toast" src = "image5.JPG">Brunch</option>
+             <option class = "clearfont"><img id = "sandwich" src = "image2.JPG">Lunch</option>
+             <option class = "clearfont"><img id = "Steak" src = "image6.JPG">Dinner</option>
+             <option class = "clearfont"><img id = "icecream" src = "image1.JPG">Dessert</option>
+           </select>
+       </div> -->
+<!-- </div>
+</div> -->
+
+<div class ="row">
+  <a href = "Profile2.html">
+    <div id = "results" class ="col s10 offset-s1">
+    </div>
+    </a>
+  </div>
+
+</body>
+</html>

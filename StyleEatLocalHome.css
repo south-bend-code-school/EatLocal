@@ -1,0 +1,145 @@
+
+h3 {
+      font-family: 'Bree Serif', serif;
+      text-align: center;
+}
+
+
+
+#logo {
+
+  text-align: center;
+  width: 150px;
+  height:150px;
+display:block;
+margin: 0 auto;
+border-radius: 100%;
+  transition: 0.5s;
+  z-index: 1;
+}
+#logo:hover {
+  transition: 0.5s;
+  filter: drop-shadow(8px);
+  z-index: 1;
+  transform: rotate(360deg);
+  filter: contrast(-3);
+}
+
+#logo:hover {
+  transition-delay: 3s;
+  width:200px;
+  height:200px;
+  filter: brightness(1.1);
+  transition: 0.4s;
+  margin-top: -20px;
+}
+
+#headerhero {
+background-image: url("https://downtownsouthbend.com/sites/default/files/styles/header_image/public/SouthBend9.jpg_2.jpg?itok=XgFUGEHC");
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 390px;
+width:1430px;
+display:block;
+margin: 0 auto;
+margin: -70px;
+filter:blur(2px);
+position: relative;
+  z-index: -90;
+
+}
+
+
+#header {
+
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+
+}
+#border {
+  font-family: 'Bree Serif', serif;
+  background-color:lightgray;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: 210%;
+}
+
+
+#about{
+text-align: center;
+margin: 0 auto;
+width: 160px;
+height: 100px;
+font-size: 200%;
+margin-top: 70px;
+margin-bottom: 90px;
+display:block;
+/*background-color: navy;*/
+  color: darkorange;
+  text-align: center;
+text-shadow:1px 1px 0 white,
+-1px -1px 0 white,
+1px -1px 0 white,
+-1px 1px 0 white,
+0px 1px 0 white,
+1px 0px 0 white,
+0px -1px 0 white,
+-1px 0px 0 white,
+4px 4px 3px white;
+font-family: 'Bree Serif', serif;
+
+}
+#colorback {
+text-align: center;
+
+}
+
+
+
+#waffles {
+  width: 30px;
+  height: 30px;
+}
+
+#toast {
+  width: 30px;
+  height: 30px;
+}
+
+#sandwich {
+  width: 30px;
+  height: 30px;
+}
+#steak {
+  width: 30px;
+  height: 30px;
+}
+#icecream {
+  width: 30px;
+  height: 30px;
+}
+.material-icons {
+background-image: url("https://www.iconexperience.com/_img/g_collection_png/standard/512x512/hamburger.png");
+  width: 10px;
+  height: 10px;
+}
+
+
+
+
+
+.label-icon:hover {
+  color: #5F9EA0;
+ opacity: 0;
+   font-family: 'Bree Serif', serif;
+}
+.label-icon:active{
+  color: #5F9EA0;
+ opacity: 0;
+   font-family: 'Bree Serif', serif;
+}
+.label-icon {
+   font-family: 'Bree Serif', serif;
+}
