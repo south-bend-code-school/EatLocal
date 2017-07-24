@@ -37,14 +37,14 @@ border-radius: 100%;
 #headerhero {
 background-image: url("https://downtownsouthbend.com/sites/default/files/styles/header_image/public/SouthBend9.jpg_2.jpg?itok=XgFUGEHC");
 background-size: cover;
-background-position: right;
+background-position: center;
 background-attachment: fixed;
 background-repeat: no-repeat;
 height: 390px;
 width:100%;
 display:block;
 margin: 0 auto;
-margin: -70px;
+/* margin: -70px; */
 filter:blur(2px);
 position: relative;
   z-index: -90;
